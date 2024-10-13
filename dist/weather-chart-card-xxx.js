@@ -18609,8 +18609,8 @@ updateChart({ forecasts, forecastChart } = this) {
           color: var(--paper-item-icon-color);
         }
         img {
-          width: ${config.icons_size}px;
-          height: ${config.icons_size}px;
+          width: 52px;
+          height: 52px;
         }
         .card {
           padding-top: ${config.title ? '0px' : '16px'};
@@ -18621,7 +18621,7 @@ updateChart({ forecasts, forecastChart } = this) {
         .main {
           display: flex;
           align-items: center;
-          font-size: ${config.current_temp_size}px;
+          font-size: 30px;
           margin-bottom: 10px;
         }
         .main ha-icon {
@@ -18631,8 +18631,8 @@ updateChart({ forecasts, forecastChart } = this) {
           margin-inline-end: 14px;
         }
         .main img {
-          width: ${config.icons_size * 2}px;
-          height: ${config.icons_size * 2}px;
+          width: 52px;
+          height: 52px;
           margin-right: 14px;
           margin-inline-start: initial;
           margin-inline-end: 14px;
@@ -18654,7 +18654,7 @@ updateChart({ forecasts, forecastChart } = this) {
         }
         .chart-container {
           position: relative;
-          height: ${config.forecast.chart_height}px;
+          height: 180px;
           width: 100%;
           direction: ltr;
         }
@@ -18713,10 +18713,10 @@ updateChart({ forecasts, forecastChart } = this) {
           right: 16px;
           inset-inline-start: initial;
           inset-inline-end: 16px;
-          font-size: ${config.time_size}px;
+          font-size: 36px;
         }
         .date-text {
-          font-size: ${config.day_date_size}px;
+          font-size: 16px;
           color: var(--secondary-text-color);
         }
         .main .feels-like {
