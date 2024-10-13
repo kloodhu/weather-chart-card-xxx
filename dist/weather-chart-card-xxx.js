@@ -19164,7 +19164,7 @@ renderLastUpdated() {
   }
 }
 
-customElements.define('weather-chart-card', WeatherChartCard);
+customElements.define('weather-chart-card-xxx', WeatherChartCardxxx);
 
 window.customCards = window.customCards || [];
 window.customCards.push({
